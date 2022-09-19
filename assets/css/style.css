@@ -1058,10 +1058,11 @@ section {
   font-size: 13px;
 }
 .logo-icon{
-  position: absolute;
+  position: fixed;
   top: 1.5rem;
   left: 1.5rem;
-  width: 4rem;
+  width: 8rem;
+  height: 4rem;
 }
 .card{
   border: 0;
