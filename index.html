@@ -786,6 +786,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>(async function () {let dataHtml = await fetch("https://chandra.leadbubble.io/hooks/project/getHtmlData?project_id=55&embed=0");let dataHtmlJson = await dataHtml.json(); dataHtmlJson.status && document.querySelector("body").appendChild(document.createRange().createContextualFragment(dataHtmlJson.data));})();</script>
 
 </body>
 
